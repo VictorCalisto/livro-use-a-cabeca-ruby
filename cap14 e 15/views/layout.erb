@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @title || "Minha Aplicação Sinatra" %></title>
+  <link rel="stylesheet" href="/css/simple.css">
+  <link rel="stylesheet" href="/css/simple.min.css">
+</head>
+<body>
+  <%= erb :_header %>
+
+  <%= yield %>
+
+  <%= erb :_footer %>
+</body>
+</html>

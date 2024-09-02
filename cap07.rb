@@ -1,0 +1,1 @@
+# ver hash.rb
